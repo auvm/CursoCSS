@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.title{
+    
+    margin: 70px;
+    color: white;
+    text-align: center;
+    /* hay página para ver los colores con nombres */
+    background-color: brown;
+
+    /* asignar colores con rgb 0-255 */
+    background-color: rgb(245, 125, 98);
+
+    /*
+        asignar colores con rgb 0-255 
+        y opacidad del 0 al 1, qué tan 
+        transparente se ve.
+    */
+    background-color: rgba(245, 125, 98, .5);
+
+    /* asignar color con hexadecimal con # 
+        del 0 al 9 y de la A a la F (16, hexadecimal) 
+        
+        #000000
+        los primeros dos son de rojo
+        los segundos dos son de verde
+        los terceros dos son azul
+        #00-00-00
+    */
+
+    color: #1F618D;
+
+
+    /* hsl ->   Hue-tono(número), 
+                saturation-saturación(%),
+                lightness-luminocidad(%).
+    */
+    color: hsl(200, 95%, 50%);
+
+
+    /* también incluye un alfa o transparencia */
+    color: hsl(200, 95%, 50%, .8);
+}
