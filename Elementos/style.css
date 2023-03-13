@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.element{
+    width: 250px;
+    height: 250px;
+
+    background-color: purple;
+    border: 30px solid steelblue;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.bloque{
+
+    /* se pueden accder a propiedades de padding margin normalmente
+     * ocupan todo el ancho(100%) del espacio 
+     * generan saltos de línea
+     */
+    color: white;
+    background-color: steelblue;
+    width: 350px;
+}
+
+.linea{
+
+    /* en línea no aplica margenes a lo alto y padding se sobrepone  */
+
+    /* con la propiedad display inline-block se puede acceder
+    a un híbrido, sigue estando en una línea, pero accede
+    a propiedades de bloque */
+
+    display: inline-block;
+    
+
+    color: white;
+    margin: 50px;
+    padding: 60px;
+    background-color: crimson;
+    text-decoration: none;
+}

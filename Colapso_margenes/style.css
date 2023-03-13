@@ -1,0 +1,18 @@
+main{
+    background-color: steelblue;
+    color: whitesmoke;
+    margin-bottom: 80px;
+    padding: .1px;
+    
+}
+
+
+.main-title{
+    margin-top: 50px;
+}
+
+.footer{
+    color: whitesmoke;
+    background-color: slateblue;
+    margin-top: 50px;
+}

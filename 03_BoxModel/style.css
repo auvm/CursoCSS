@@ -1,0 +1,16 @@
+.caja{
+    background-color: yellowgreen;
+    width: 50vw;
+    height: 50vh;
+    overflow: scroll;
+    border: 10px dotted crimson;
+}
+
+.caja1{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.caja2{
+    margin: 10px 50px;
+}
