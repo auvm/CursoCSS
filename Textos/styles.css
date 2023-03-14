@@ -27,12 +27,24 @@ body{
 
 .paragraph{
     text-transform: uppercase;
+    /* font-size: 30px; */
+
+    /* recomendado de 1.5 para leer mejor, como en word */
+    line-height: 1.5;
+}
+
+.title{
+    font-size: 50px;
+    overflow-wrap: break-word;
+
+
+
 }
 
 .paragraph-first{
     text-transform: lowercase;
     margin: 20px 0 ;
-    border: 3px solid crimson;
+    /* border: 3px solid crimson; */
 
     font-weight: light;
     font-style: italic;
@@ -42,6 +54,6 @@ body{
 }
 
 h2{
-    border: 3px solid greenyellow;
+    /* border: 3px solid greenyellow; */
     text-align: center;
 }
