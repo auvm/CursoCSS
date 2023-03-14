@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    height: 300vh;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: darkslategray;
+    margin-left: 150px;
+    border: 2px solid crimson;
+
+    position: sticky;
+    top: 100px;
+}
+
+.container{
+    min-height: 300px;
+    width: 300vw;
+    background-color: darkkhaki;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: darkslategray;
+    border: 2px solid crimson;
+
+    position: sticky;
+    left: 150px;
+}

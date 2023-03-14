@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+    height: 300vh;
+}
+
+.container{
+    width: 90%;
+    height: 500px;
+    border: 2px solid royalblue;
+    margin: 80px auto;
+
+    /* para el ejemplo de absolute */
+    /* -> */position: relative;
+}
+
+.position{
+
+    width: 150px;
+    height: 100px;
+    color: whitesmoke;
+    line-height: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.static{
+    background-color: purple;
+    /* por defecto sige el flujo normal
+    izquierda a derecha, arriba a abajo 
+    no se puede mover*/
+    
+}
+
+.relative{
+    background-color: indianred;
+   /* Relative es relativo a su lugar original 
+     donde aparece */
+     
+    position: relative;
+    /* desbloquea
+    top: ;
+    right: ;
+    bottom: ;
+    left: ;
+     */
+
+ 
+    
+    top: 25px;
+    left: 120px;
+
+    /* z-index mayor es igual a mayor precedencia
+    aparece atrás de fixed */
+    z-index: 10;
+
+}
+ 
+.absolute{
+    background-color: brown;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.fixed{ 
+
+    background-color: teal;
+    position: fixed;
+
+    /* su z-index es mayor al cuadro de relative
+    y por eso aparece enfrente de el mismo */
+    z-index: 100;
+}
