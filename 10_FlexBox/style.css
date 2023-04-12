@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexbox{
+    width: 90%;
+    max-width: 800px;
+    min-height: 600px;
+    border: 3px solid black;
+    margin: 80px auto;
+
+    display: flex;
+
+    /* column / column-reverse / row / row-reverse */
+    flex-direction: row;
+
+
+    /* desborda por el cross-axis */
+    flex-wrap: wrap-reverse;
+    /* en eje crusado inverso, lo pasa abajo y desborda hacía arriba */
+
+    
+
+}
+
+
+.element{
+    font-size: 2rem;
+    width: 100px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.element1{
+    background-color: brown;   
+}
+
+.element2{
+    background-color:  blue;
+}
+
+.element3{
+    background-color: blueviolet;
+}
