@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}

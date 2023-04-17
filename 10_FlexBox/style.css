@@ -21,7 +21,7 @@ body{
 
 
     /* desborda por el cross-axis */
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     /* en eje crusado inverso, lo pasa abajo y desborda hacía arriba */
 
     
