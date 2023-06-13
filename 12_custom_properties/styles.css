@@ -1,3 +1,9 @@
+:root{
+    --bordes-colores: 7px dashed black;
+    --color-principal: crimson;
+    --fuente-titulo: 'Times New Roman', Times, serif;
+    --paddin-btns: 15px 30px;
+}
 *{
     box-sizing: border-box;
 }
@@ -7,17 +13,30 @@ body{
 }
 
 .title{
-    color: royalblue;
+    color: var(--color-principal);
+    border: var(--bordes-colores);
 }
 
 .btn{
     color: whitesmoke;
     text-decoration: none;
-    padding: 15px 30px;
-    background-color: royalblue;
+    padding: var(--paddin-btns);
+    background-color: var(--color-principal);
+    border: var(--bordes-colores);
     display: inline-block;
 }
 
 .paragraph{
-    color: royalblue;
+    color: var(--color-principal);
+    border: var(--bordes-colores);
+
+    /* la fuente de la variable no tiene efecto aquí pq no es 
+    re-definida con Impac dentro del container */
+    font-family: var(--fuente-titulo);
+}
+
+.container{
+    /* se redefine una variable y solo es accesible para container y sus herederos */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
