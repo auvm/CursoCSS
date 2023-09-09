@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 90%;
+    height: 600px;
+    outline: 2px solid;
+    margin: 80px auto;
+    
+    /* debe de declararse un display flex */
+    display: grid;
+
+    /* en esta insttucción se definen 3 columnas
+    con los tamaños en fracciones del espacio total del container
+    a lo ancho */
+    grid-template-columns: 1fr 2fr 1fr;
+    /* aquí se definen las 10 filas con un 
+    alto de 10% dentro de todo el contenedor */
+    grid-template-rows: repeat(10, 10%);
+    
+    /* Esta función está por default y auto es su valor
+    predeterminado de igual manera, define el tamaño de las
+    filas que sobran en el espacio definico del grid-template-rows, 
+    pero como en este caso esa instucción definió utilizar el 100% en las 10 filas
+    de 10%, no se tiene filas de más en el hueco. */
+    grid-auto-rows: auto;
+}
+
+.item{
+    /* width: 100px;
+    height: 100px; */
+    color: whitesmoke;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1{
+    background-color: plum;   
+}
+.item2{
+    background-color: pink;   
+}
+.item3{
+    background-color: orange;   
+}
+.item4{
+    background-color: greenyellow;   
+}
+.item5{
+    background-color: blueviolet;   
+}
