@@ -30,6 +30,15 @@ body{
     pero como en este caso esa instucción definió utilizar el 100% en las 10 filas
     de 10%, no se tiene filas de más en el hueco. */
     grid-auto-rows: auto;
+
+    /* El gap o espaciador sirve para dar espacio entre columnas o filas 
+    con las siguientes instrucciones: */
+
+    /* row-gap: 15px;
+    column-gap: 25px; */
+
+    /* También existe el shorthand propertie de gap donde se aplica tanto a columna como a fila */
+    gap: 10px;
 }
 
 .item{
