@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.element1{
+    background-color: brown;
+    margin: 250px auto;
+    width: 200px;
+    height: 200px;
+
+    /* valores: valor-H valor-V borroso escalado color */
+    box-shadow: 100px 100px 5px 10px rgb(110, 162, 214);
+}
+/* 
+    valor-H:    positivos = derecha
+                negativos = izquierda
+                
+    valor-V:    positivos = abajo
+                negativos = arriba 
+                
+    borroso:    SOLO
+                positivos = más difunidado
+    
+    Escalado:   positivos = más grande
+                negativos = más pequeño 
+    color:
+                default = currentColor
+    
+*/
+.element2{
+    background-color: brown;
+    margin: 250px auto;
+    width: 200px;
+    height: 200px;
+
+    border-radius: 50%;
+}
+
+.element3{
+    background-color: brown;
+    margin: 250px auto;
+    width: 200px;
+    height: 200px;
+
+    box-shadow: 100px 100px  ;
+}
