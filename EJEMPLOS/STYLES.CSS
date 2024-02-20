@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+.box{
+
+    width: 100vw;
+    height: 50vh;
+    background-color: aquamarine;
+    background-image: url(https://cdn.ajoverdarnel.com/img/look/banner-look.png);
+    background-size: cover;
+}
+
+.caja{
+    background-color: antiquewhite;
+    width: 100vw;
+    height: 100vh;
+    
+    
+}
+img{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+
+}
