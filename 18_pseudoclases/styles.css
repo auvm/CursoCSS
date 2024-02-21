@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.element{
+    padding: 20px;
+    font-size: 30px;
+    margin: 20px;
+    width: max-content;
+    color: whitesmoke;
+    background-color: skyblue;
+}
+
+.input{
+    width: max-content;
+    
+    
+}
+
+.label{
+    display: inline-block;
+    margin: 20px 0;
+    
+}
+
+.check:checked + .label{
+    color: green;
+    font-weight: normal;
+    
+    /* background-color: yellowgreen; */
+}
