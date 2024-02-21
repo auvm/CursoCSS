@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.botton{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 50px;
+    padding: 20px 0;
+    width: 200px;
+}
+
+
+    .btn_blue + .btn_red{
+        background-color: yellowgreen;
+    }
+
+.btn_blue{
+    background-color: blue;
+}
+
+.btn_red{
+    background-color: red;
+}
+
+.btn_tomato{
+    background-color: tomato;
+}
+
+.element{
+    margin-left: 50px;
+
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
