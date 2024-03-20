@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.element:hover{
+    transition: 1s;
+    transform: rotate(90deg) scaleX(2);
+}
+
+.element{
+    width: 200px;
+    height: 200px;
+    background-color: steelblue;
+    margin: 60px;
+
+    /* transform: translate(200px); */
+    
+    /*
+    transform: rotate(45deg);
+    0 - 360 deg
+    0 - 400 grad
+    0 - 6.28 rad
+    0 - 1 turn 
+    */
+
+    /* scale: 2; */
+
+
+}
+
+.element2{
+    background-color: brown;
+    transform: unset;
+}
