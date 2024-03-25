@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.element{
+    padding: 20px;
+    font-size: 30px;
+    margin: 20px;
+    width: max-content;
+    color: whitesmoke;
+    background-color: skyblue;
+    display: block;
+}
+
+.element::before{
+    content: "";
+    display: block;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 150px;
+}
+
+.element::after{
+    content: "";
+    display: block;
+    background-color: brown;
+    width: 200px;
+    height: 150px;
+}
+
+.element p::first-letter{
+    font-weight: bold;
+    color: black;
+}
+
+.input{
+    width: max-content;
+    
+    
+}
+
+.label{
+    display: inline-block;
+    margin: 20px 0;
+    
+}
+
+.check:checked + .label{
+    color: green;
+    font-weight: normal;
+    
+    /* background-color: yellowgreen; */
+}
