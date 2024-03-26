@@ -10,6 +10,7 @@
     transition-property: transform;
     /* duración de la transición */
     transition-duration: 1s;
+    transition-delay: 2s;
 }
 
 .element{
